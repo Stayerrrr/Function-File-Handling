@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-// === FUNCTION PROTOTYPES ===
+// Functions Prototypes
 int add(int a, int b);
 int subtract(int a, int b);
 int multiply(int a, int b);
