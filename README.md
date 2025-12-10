@@ -92,5 +92,49 @@ These programs teach:
 
 ---
 
-Both programs are beginner-friendly examples of combining arrays, strings, and file operations in practical C applications.
+---
+
+## 📌 Program 3 — Student Management System
+
+This program manages student records using a text file (`daftar_mahasiswa.txt`). It allows adding, viewing, updating, deleting, and fully purging all student data.
+
+**Features:**
+
+* Add new student data (Name, NIM, Major, IPK)
+* View all stored student data
+* Update a specific record based on NIM
+* Delete a specific record based on NIM
+* Purge (clear) all student data with confirmation
+* Clean input handling using `trimNewline`
+
+**Functions:**
+
+* `createDataMahasiswa` → Add a new student
+* `readDataMahasiswa` → Display all student records
+* `updateDataMahasiswa` → Modify a record by NIM
+* `deleteDataMahasiswa` → Remove a record by NIM
+* `purgeDataMahasiswa` → Delete all records
+* `trimNewline` → Remove unwanted newline from string input
+
+**Usage:**
+
+```bash
+gcc mahasiswa.c -o mahasiswa
+./mahasiswa
+```
+
+**Example Menu:**
+
+```
+1. Add Data
+2. View Data
+3. Update Data
+4. Delete Data Based on NIM
+5. Purge Data
+6. Exit
+```
+
+---
+
+All three programs are beginner-friendly examples of combining file handling, string manipulation, and menu-driven logic in C. examples of combining arrays, strings, and file operations in practical C applications.
 
