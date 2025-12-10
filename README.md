@@ -92,8 +92,6 @@ These programs teach:
 
 ---
 
----
-
 ## 📌 Program 3 — Student Management System
 
 This program manages student records using a text file (`daftar_mahasiswa.txt`). It allows adding, viewing, updating, deleting, and fully purging all student data.
